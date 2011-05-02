@@ -10,8 +10,13 @@ Contents:
 
 .. toctree::
    :maxdepth: 2
+   
+   MyClass <my_class>
 
-.. doxygenfile:: myproj/MyClass.hpp
+doxygenfile example
+===================
+
+.. doxygenfile:: myproj/AnotherNamespace.hpp
 
 Indices and tables
 ==================
