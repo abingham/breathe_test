@@ -1,2 +1,11 @@
 This is a test project for the `breathe` doxygen -> sphinx bridge.
 
+Here's how to generate the docs (which is the main purpose of the project):
+
+  % cd docs/doxygen
+  % doxygen
+  % cd ../sphinx/source
+  % make clean
+  % make html
+
+Now just look at the output in <root>/docs/sphinx/source/_build/html/index.html.
